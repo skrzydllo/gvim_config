@@ -14,8 +14,8 @@
 " downloads for the colorschemes on vim.org
 
 " Source a global configuration file if available
-if filereadable("/etc/vim/gvimrc.local")
-  source /etc/vim/gvimrc.local
+if filereadable("~/gvimrc.local")
+  source ~/gvimrc.local
 endif
 
 
@@ -26,9 +26,5 @@ set showmatch
 set incsearch
 set hlsearch
 
-set background = dark
+colo desert
 syntax enable
-
-
-
-
